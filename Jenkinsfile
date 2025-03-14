@@ -13,7 +13,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'g++ main/hello.cpp -o main/output' // change the file name hello2.cpp to helo2.cpp 
+                sh 'g++ main/hello.cpp -o main/output' // change the file name hello2.cpp to helo2.cpp for error
             }
         }
 
