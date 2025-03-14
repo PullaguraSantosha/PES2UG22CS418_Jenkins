@@ -13,7 +13,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'g++ main/helo.cpp -o main/output' // chnage the file name hello.cpp to helo.cpp 
+                sh 'g++ main/hello2.cpp -o main/output' // chnage the file name hello.cpp to helo.cpp 
             }
         }
 
